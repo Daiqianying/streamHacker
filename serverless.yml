@@ -10,6 +10,8 @@ inputs:
     src: ./
     exclude:
       - .env
+      - .git
+      - doc
   faas:
     name: websocket-function
     timeout: 10
